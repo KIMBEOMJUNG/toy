@@ -257,7 +257,7 @@
 					</div>
 					<div class="3u">
 						<section>
-							<h2>Nulla leifend</h2>
+							<h2>Nulla leifend2</h2>
 							<p>Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat.</p>
 							<ul class="style5">
 								<li><a href="#"><img src="../main/images/pics07.jpg" alt=""></a></li>
