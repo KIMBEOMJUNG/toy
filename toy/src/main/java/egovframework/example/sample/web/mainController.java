@@ -25,5 +25,11 @@ public class mainController {
 		return "main/main";
 	}
 
+	@RequestMapping(value="/main/list.do")
+	public String list(HttpServletRequest request, ModelMap model) throws Exception
+	{
+		return "main/list";
+	}
+	
 	
 }

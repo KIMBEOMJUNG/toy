@@ -14,7 +14,7 @@
 -->
 <html>
 	<head>
-		<title>Ex Machina by TEMPLATED</title>
+		<title>토이플러스</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -46,9 +46,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="active"><a href="index.html">홈</a></li>
-							<li><a href="left-sidebar.html">카테고리</a></li>
-							<li><a href="right-sidebar.html">커뮤티니</a></li>
+							<li class="active"><a href="/toy/main/main.do">홈</a></li>
+							<li><a href="/toy/main/list.do">카테고리</a></li>
+							<li><a href="right-sidebar.html">커뮤니티</a></li>
 							<li><a href="no-sidebar.html">문의</a></li>
 						</ul>
 					</nav>
@@ -83,9 +83,9 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Maecenas lectus</h2>
+								<h2>카드</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+							<p class="subtitle">역대 최다판매 인기 카드</p>
 							<p><a href="#"><img src="../main/images/pics14.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>
@@ -93,9 +93,9 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Luctus lectus</h2>
+								<h2>보드 게임</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+							<p class="subtitle">누적 판매량 1위</p>
 							<p><a href="#"><img src="images/pics15.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>
@@ -103,9 +103,9 @@
 					<div class="3u">
 						<section>
 							<header>
-								<h2>Posuere eleifend</h2>
+								<h2>게임기</h2>
 							</header>
-							<p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+							<p class="subtitle">2020년 신제품 게임기</p>
 							<p><a href="#"><img src="../main/images/pics16.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>
@@ -120,64 +120,65 @@
 					<div class="6u">
 						<section>
 							<header>
-								<h2>Integer gravida nibh quis urna</h2>
-								<span class="byline">Augue praesent a lacus at urna congue rutrum</span>
+								<h2>신제품 모델 이슈</h2>
+								<span class="byline"></span>
 							</header>
-							<p>This is <strong>Ex Machina</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
-							<p>Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget lorem ipsum dolor. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat. Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat.</p>
-							<p>Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget lorem ipsum dolor. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat. Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat.</p>
+							<p>동해물과백두산이 마르고 가나다라마바사 아자</p>
 							<a href="#" class="button">More Details</a>
 						</section>
 					</div>
 					<div class="3u">
 						<section class="sidebar">
 							<header>
-								<h2>Feugiat Tempus</h2>
+								<h2>인기 리뷰</h2>
 							</header>
 							<ul class="style2">
 								<li>
 									<a href="#"><img src="../main/images/pics07.jpg" alt=""></a>
-									<p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+									<p>뽀로로 ebs 리뷰 새로운 </p>
 								</li>
 								<li>
 									<a href="#"><img src="../main/images/pics08.jpg" alt=""></a>
-									<p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+									<p>펭수 유튜브 아이템</p>
 								</li>
 								<li>
 									<a href="#"><img src="../main/images/pics09.jpg" alt=""></a>
-									<p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+									<p>또봇 zzz</p>
 								</li>
+								
 								<li>
 									<a href="#"><img src="../main/images/pics10.jpg" alt=""></a>
-									<p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+									<p>bb탄 장난담 리뷰 가나다라마바사 동해물과 백도산이 ㄴ아아</p>
 								</li>
+								
 							</ul>						
 						</section>
 					</div>
 					<div class="3u">
 						<section class="sidebar">
 							<header>
-								<h2>Feugiat Tempus</h2>
+								<h2>최신 리뷰</h2>
 							</header>
-							<ul class="style1">
-								<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-								<li><a href="#">Etiam rhoncus volutpat erat</a></li>
-								<li><a href="#">Donec dictum metus in sapien</a></li>
-								<li><a href="#">Nulla luctus eleifend purus</a></li>
-								<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-							</ul>
-						</section>
-						<section class="sidebar">
-							<header>
-								<h2>Nulla luctus eleifend</h2>
-							</header>
-							<ul class="style1">
-								<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-								<li><a href="#">Donec dictum metus in sapien</a></li>
-								<li><a href="#">Integer gravida nibh quis urna</a></li>
-								<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
-								<li><a href="#">Mauris vulputate dolor sit amet nibh</a></li>
-							</ul>
+							<ul class="style2">
+								<li>
+									<a href="#"><img src="../main/images/pics07.jpg" alt=""></a>
+									<p>뽀로로 ebs 리뷰 새로운 </p>
+								</li>
+								<li>
+									<a href="#"><img src="../main/images/pics08.jpg" alt=""></a>
+									<p>펭수 유튜브 아이템</p>
+								</li>
+								<li>
+									<a href="#"><img src="../main/images/pics09.jpg" alt=""></a>
+									<p>또봇 zzz</p>
+								</li>
+								
+								<li>
+									<a href="#"><img src="../main/images/pics10.jpg" alt=""></a>
+									<p>bb탄 장난담 리뷰 가나다라마바사 동해물과 백도산이 ㄴ아아</p>
+								</li>
+								
+							</ul>						
 						</section>
 					</div>
 				</div>
