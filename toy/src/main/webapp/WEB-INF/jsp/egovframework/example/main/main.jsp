@@ -70,16 +70,18 @@
 			<!-- Extra -->
 			<div id="marketing" class="container">
 				<div class="row">
+				<c:forEach var="result" items="${resultList}">
 					<div class="3u">
 						<section>
 							<header>
-								<h2>건담</h2>
+								<h2>${result.idx}-${result.title}</h2>
 							</header>
 							<p class="subtitle">설 최저가 프라모델</p>
 							<p><a href="#"><img src="../main/images/pics13.jpg" alt=""></a></p>
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
+					</c:forEach>
 					<div class="3u">
 						<section>
 							<header>

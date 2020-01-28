@@ -22,6 +22,12 @@ public class mainController {
 	@RequestMapping(value="/main/main.do")
 	public String main(HttpServletRequest request, ModelMap model) throws Exception
 	{
+		System.out.println("test");
+		List<?> list = (List<?>) sampleDAO.list("test");   //Sample_sql.xml 파일 안에 select id 와 일치시켜주기!
+		System.out.println("test2");
+		model.addAttribute("resultList", list);
+		System.out.println("test3");
+		
 		return "main/main";
 	}
 
