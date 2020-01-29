@@ -14,7 +14,7 @@
 -->
 <html>
 	<head>
-		<title>토이플러스</title>
+		<title>토이플러스  </title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
