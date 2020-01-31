@@ -25,7 +25,14 @@ public class mainController {
 		System.out.println("test");
 		List<?> list = (List<?>) sampleDAO.list("test");   //Sample_sql.xml 파일 안에 select id 와 일치시켜주기!
 		System.out.println("test2");
+		
+		NaverShoppingService service = new NaverShoppingService();
+		List<shopping> slist = service.searchBook("프라모델", 3, 1);
+		System.out.println("slist :" + slist);
+		
+		//addAttribute 에 json값 넘겨주면 됨
 		model.addAttribute("resultList", list);
+		model.addAttribute("resultList2", slist);
 		System.out.println("test3");
 		
 		return "main/main";

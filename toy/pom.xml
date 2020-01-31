@@ -48,14 +48,18 @@
 	</repositories>
 
 	<dependencies>
-		<!-- 표준프레임워크 실행환경 -->
-		<dependency>
-<groupId>commons-fileupload</groupId>
-<artifactId>commons-fileupload</artifactId>
-<version>1.3.1</version>
-</dependency>
-		
-		
+	<!-- 200131 json 추가함 -->
+	<dependency>
+		<groupId>com.googlecode.json-simple</groupId>
+		<artifactId>json-simple</artifactId>
+		<version>1.1</version>
+	</dependency>
+	<!-- 표준프레임워크 실행환경 -->
+	<dependency>
+		<groupId>commons-fileupload</groupId>
+		<artifactId>commons-fileupload</artifactId>
+		<version>1.3.1</version>
+	</dependency>
         <dependency>
 		    <groupId>egovframework.rte</groupId>
 		    <artifactId>egovframework.rte.ptl.mvc</artifactId>

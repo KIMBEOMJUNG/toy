@@ -81,7 +81,18 @@
 							<a href="#" class="button">More</a>
 						</section>
 					</div>
-					</c:forEach>
+				</c:forEach>
+				<c:forEach var="result" items="${resultList2}">
+					<div class="3u">
+						<section>
+							<header>
+								<h2>${result.title}</h2>
+							</header>
+							<p><a href="${result.link}"><img src="${result.image}" width="250" height="250" alt=""></a></p>
+							<a href="#" class="button">More</a>
+						</section>
+					</div>
+				</c:forEach>
 					<div class="3u">
 						<section>
 							<header>
