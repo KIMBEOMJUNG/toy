@@ -73,7 +73,7 @@
 			<div class="container">
 				<div class="row">
 					<section class="4u">
-						<div class="box">
+						<div class="box" onclick="Xml();">
 							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
 							<h3>Etiam posuere augue</h3>
 							<p>Donec nonummy magna quis risus eleifend. </p>
@@ -161,4 +161,23 @@
 
 
 	</body>
+	
+<script>
+	function Xml(){
+
+var xmlHttp = new XMLHttpRequest();    //xml 요청을 받을 변수를 선언해서 만든다.
+
+xmlHttp.open("GET","http://openapi.naver.com/search?X-Naver-Client-Id="+V5yP8QIigqaBAU3Nj1ux+"&query="+targetSearch+"&target=news&start=1&display=6&sort=sim",false);    //open함수로 xml문서를 받아온다.
+
+xmlHttp.send(null);
+
+console.log("XML",xmlHttp);    //로그를 찍어 잘 받아왔는지 확인.
+
+}
+	</script>
+
+
+
+	
+	
 </html>
