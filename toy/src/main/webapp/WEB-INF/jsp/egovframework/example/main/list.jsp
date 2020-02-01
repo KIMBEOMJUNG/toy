@@ -31,6 +31,16 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		
+		<script>
+	        function fn_egov_link_page(pageNo){
+	        	document.listForm.pageIndex.value = pageNo;
+	        	document.listForm.action = "<c:url value='/main/list.do'/>";
+	           	document.listForm.submit();
+	        }
+</script>
+		
+		
 	</head>
 	<body class="left-sidebar">
 
@@ -72,79 +82,27 @@
 		<div id="featured">
 			<div class="container">
 				<div class="row">
-					<section class="4u">
-						<div class="box" onclick="Xml();">
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
+					
+					
+					<c:forEach var="result" items="${resultList2}">
 					<section class="4u">
 						<div class="box" >
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
+							<a href="#" class="image left"><img src="${result.image}" alt=""></a>
+							<h3>${result.title}</h3>
 							<p>Donec nonummy magna quis risus eleifend. </p>
 							<a href="#" class="button">More</a>
 						</div>
 					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics04.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics05.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
-					<section class="4u">
-						<div class="box">
-							<a href="#" class="image left"><img src="../main/images/pics06.jpg" alt=""></a>
-							<h3>Etiam posuere augue</h3>
-							<p>Donec nonummy magna quis risus eleifend. </p>
-							<a href="#" class="button">More</a>
-						</div>
-					</section>
+					</c:forEach>
+					
+					
+					
 				</div>
+				
+				<ui:pagination paginationInfo="${paginationInfo }" type="image" jsFunction="fn_egov_link_page"/>
+<form action="/toy/main/list.do" name="listForm" id="listForm">
+	<input type="hidden" name="pageIndex" value="1"/>	
+</form>
 				<div class="divider"></div>
 			</div>
 		</div>
@@ -162,19 +120,7 @@
 
 	</body>
 	
-<script>
-	function Xml(){
 
-var xmlHttp = new XMLHttpRequest();    //xml 요청을 받을 변수를 선언해서 만든다.
-
-xmlHttp.open("GET","http://openapi.naver.com/search?X-Naver-Client-Id="+V5yP8QIigqaBAU3Nj1ux+"&query="+targetSearch+"&target=news&start=1&display=6&sort=sim",false);    //open함수로 xml문서를 받아온다.
-
-xmlHttp.send(null);
-
-console.log("XML",xmlHttp);    //로그를 찍어 잘 받아왔는지 확인.
-
-}
-	</script>
 
 
 
